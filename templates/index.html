@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Dataset</title>
+</head>
+<body>
+    <h1>Upload your CSV dataset</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <label for="file">Choose CSV file:</label>
+        <input type="file" id="file" name="file" required><br><br>
+
+        <label for="target_col">Target column name:</label>
+        <input type="text" id="target_col" name="target_col" placeholder="e.g. Species or Survived" required><br><br>
+
+        <input type="submit" value="Upload and Classify">
+    </form>
+
+</body>
+</html>

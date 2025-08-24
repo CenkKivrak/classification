@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# Uploads folder (user-uploaded CSVs)
+uploads/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/project files (optional)
+.vscode/
+.idea/
+
+# Logs
+*.log

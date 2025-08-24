@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classification Result</title>
+    <style>
+        pre { 
+            background-color: #f4f4f4; 
+            padding: 10px; 
+            width: 80%; 
+            margin: auto; 
+            border: 1px solid #ccc; 
+            white-space: pre-wrap; 
+            word-wrap: break-word; 
+        }
+    </style>
+</head>
+<body>
+    <h2>Confusion Matrix</h2>
+    <div style="text-align:center;">
+    {{ confusion_matrix_html | safe }}
+    </div>
+
+    <p style="text-align:center;"><a href="{{ url_for('index') }}">Upload another file</a></p>
+</body>
+</html>
+
