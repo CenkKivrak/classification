@@ -12,7 +12,7 @@ dist/
 *.spec
 
 # Uploads folder (user-uploaded CSVs)
-uploads/
+#uploads/
 
 # OS-specific files
 .DS_Store
