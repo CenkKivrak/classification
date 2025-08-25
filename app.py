@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import os
 import pandas as pd
+os.makedirs("uploads", exist_ok=True)
 from iris_classification import classify_dataset
 from werkzeug.utils import secure_filename
 
